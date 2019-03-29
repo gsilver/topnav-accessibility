@@ -414,8 +414,8 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
   <script type="text/javascript">
     $('#nav2 .dropdown-toggle').on('focus', function() {
-      $('.dropdown-toggle').attr('aria-expanded', false);
-      $('.dropdown-menu').hide();
+      $('#nav2 .dropdown-toggle').attr('aria-expanded', false);
+      $('#nav2 .dropdown-menu').hide();
       $(this).attr('aria-expanded', true).next('.dropdown-menu').show();
     });
   </script>
